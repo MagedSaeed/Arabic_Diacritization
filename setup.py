@@ -10,12 +10,12 @@ with open("requirements.txt",'r',encoding='utf-8') as requirements_file:
 setuptools.setup(
     name="Arabic_Diacritization",
     version="0.0.1",
-    author="MagedSaeed",
-    author_email="mageedsaeed1@gmail.com",
-    description="A Python Package for abstracting Arabic Poetry Science, Aroud",
+    author="Zaid Alyafeai",
+    author_email="alyafey22@gmail.com",
+    description="A Python package to diacritize Arabic text",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/MagedSaeed/bohour",
+    url="https://github.com/MagedSaeed/Arabic_Diacritization.git",
     packages=["Arabic_Diacritization"],
     package_dir={"Arabic_Diacritization": "Arabic_Diacritization"},
     classifiers=[
