@@ -5,11 +5,11 @@ import torch
 from torch import nn
 from torch.autograd import Variable
 
-from modules.attention import AttentionWrapper
-from modules.layers import ConvNorm
-from modules.tacotron_modules import CBHG, Prenet
-from options import AttentionType
-from util.utils import get_mask_from_lengths
+from Arabic_Diacritization.modules.attention import AttentionWrapper
+from Arabic_Diacritization.modules.layers import ConvNorm
+from Arabic_Diacritization.modules.tacotron_modules import CBHG, Prenet
+from Arabic_Diacritization.options import AttentionType
+from Arabic_Diacritization.util.utils import get_mask_from_lengths
 
 
 class Seq2Seq(nn.Module):

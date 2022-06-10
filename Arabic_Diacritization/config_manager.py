@@ -8,17 +8,17 @@ from typing import Any, Dict
 import ruamel.yaml
 import torch
 
-from models.baseline import BaseLineModel
-from models.cbhg import CBHGModel
-from models.seq2seq import Decoder as Seq2SeqDecoder, Encoder as Seq2SeqEncoder, Seq2Seq
-from models.tacotron_based import (
+from Arabic_Diacritization.models.baseline import BaseLineModel
+from Arabic_Diacritization.models.cbhg import CBHGModel
+from Arabic_Diacritization.models.seq2seq import Decoder as Seq2SeqDecoder, Encoder as Seq2SeqEncoder, Seq2Seq
+from Arabic_Diacritization.models.tacotron_based import (
     Decoder as TacotronDecoder,
     Encoder as TacotronEncoder,
     Tacotron,
 )
 
-from options import AttentionType, LossType, OptimizerType
-from util.text_encoders import (
+from Arabic_Diacritization.options import AttentionType, LossType, OptimizerType
+from Arabic_Diacritization.util.text_encoders import (
     ArabicEncoderWithStartSymbol,
     BasicArabicEncoder,
     TextEncoder,
