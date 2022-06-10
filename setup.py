@@ -16,8 +16,8 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/MagedSaeed/Arabic_Diacritization.git",
-    packages=setuptools.find_packages('./Arabic_Diacritization'),
-    package_dir={"Arabic_Diacritization": "Arabic_Diacritization"},
+    packages=setuptools.find_packages(),
+    package_dir={"Arabic_Diacritization": "./Arabic_Diacritization"},
     classifiers=[
         "Programming Language :: Python :: 3.7",
         "License :: OSI Approved :: MIT License",
