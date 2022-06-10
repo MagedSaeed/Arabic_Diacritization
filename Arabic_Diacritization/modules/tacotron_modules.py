@@ -5,7 +5,7 @@ from typing import List
 import torch
 from torch import nn
 
-from Arabic_Diacritization.modules.layers import BatchNormConv1d
+from .layers import BatchNormConv1d
 
 
 class Prenet(nn.Module):

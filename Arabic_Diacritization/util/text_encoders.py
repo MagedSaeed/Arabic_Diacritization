@@ -1,6 +1,6 @@
-from Arabic_Diacritization.util import text_cleaners
+from . import text_cleaners
 from typing import Dict, List, Optional
-from Arabic_Diacritization.util.constants import ALL_POSSIBLE_HARAQAT
+from .constants import ALL_POSSIBLE_HARAQAT
 
 
 class TextEncoder:

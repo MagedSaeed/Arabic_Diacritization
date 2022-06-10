@@ -4,7 +4,7 @@ import torch
 from torch import nn
 import torch.nn.functional as F
 
-from Arabic_Diacritization.options import AttentionType
+from ..options import AttentionType
 
 
 class BahdanauAttention(nn.Module):
