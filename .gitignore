@@ -131,3 +131,7 @@ dmypy.json
 data
 log*
 pyrightconfig.json
+
+
+# ignore models files
+CA_MSA.base.cbhg/*
