@@ -8,7 +8,7 @@ with open("requirements.txt",'r',encoding='utf-8') as requirements_file:
     requirements = requirements_file.read().splitlines()
 
 setuptools.setup(
-    name="bohour",
+    name="Arabic_Diacritization",
     version="0.0.1",
     author="MagedSaeed",
     author_email="mageedsaeed1@gmail.com",
