@@ -1,3 +1,4 @@
+setuptools # incase it does not exist
 torch==1.7.0
 numpy==1.19.5
 matplotlib==3.3.3
@@ -7,3 +8,5 @@ tensorboard==2.4.0
 diacritization-evaluation==0.5
 tqdm==4.56.0
 pyarabic
+gdown
+protobuf~=3.20
